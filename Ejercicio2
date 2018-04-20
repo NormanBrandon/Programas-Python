@@ -1,0 +1,9 @@
+celsius=60.2;
+fahrenheit=45.4;
+
+celsius=int(input("Introduce la temperatura en Celsius: "))
+fahrenheit=celsius*1.8 +32
+print(fahrenheit)
+fahrenheit=int(input("Introduce la temperatura en Fahrenheit: "))
+celsius = ( fahrenheit - 32 )*(5/9)
+print(celsius)
